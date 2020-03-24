@@ -5,12 +5,7 @@ export {Lb4DemoApplication};
 
 export async function main( ) {
 
-  const options = {
-    rest = {
-       cors: {
-          allowedHeaders: 'Content-Type,authorizationToken,userId'
-       }
-    }
+  const options = {  
   };
   
   
